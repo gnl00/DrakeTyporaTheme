@@ -1,5 +1,13 @@
+# 写的是艺术
+
 <p align="center">
-<a href="https://typora.io/"><img src="https://i.imgur.com/3U8bJOE.png" alt="image-20210710130755511" width="150" /></a>
+  <a href="https://typora.io/"><img src="https://i.imgur.com/3U8bJOE.png" alt="image-20210710130755511" width="150" /></a>
+  <br>
+  <br>
+  <a href="https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master">下载</a>
+  | <a href="https://theme.typora.io/theme/Drake/">官网</a>
+  | <a href="https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md">自定义</a>
+  <br>
 </p>
 
 
@@ -12,19 +20,21 @@
 <a href="https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md"><img src="https://raw.githubusercontent.com/liangjingkanji/Net/master/docs/img/issues.svg"/></a>
 </p><br>
 
-- 12种明暗风格主题: [点击下载主题(Click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
-- 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template),
-  并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
-- 时序图支持友好, 可以使用[mermaid](https://mermaid-js.github.io/mermaid/#/)语法绘制时序图
-- 为保持主题维护更新建议==STAR==本仓库, 也欢迎贡献更多风格主题
+- 可以生成优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
+- 如果想收到主题更新通知请==Watch==本仓库
+- 欢迎为本项目提供更多风格主题
 
-## Customize
+
+
+## 自定义
 
 **字体大小**: <kbd>设置界面</kbd> -> <kbd>外观</kbd> -> <kbd>字体大小</kbd> -> <kbd>设置字体大小</kbd>
 
+
+
 - 自定义字体请编辑此处 [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L35-L37)
 - 行高/段间距请编辑此处 [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L38-L40)
-- 更多请查看[常见问题](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md)
+- 更多自定义请查看[常见问题](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md)
 
 
 
@@ -34,17 +44,18 @@
 
 <br>
 
-| 推荐字体                                                         | 描述                                                                                                                      |
-|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/)   | 英文字体, 适合开发人员的字体, 修改版本: [JetBrainsMono-patch](https://github.com/liangjingkanji/JetBrainsMono-patch)                     |
-| [Fira Code](https://github.com/tonsky/FiraCode)              | 英文字体, 前端开发人员喜欢用的字体                                                                                                      |
-| [cascadia-code](https://github.com/microsoft/cascadia-code)  | 英文字体, 微软官方字体, Windows Terminal的默认字体, 修改版本: [cascadia-code-patch](https://github.com/liangjingkanji/cascadia-code-patch) |
-| [PTCode](https://github.com/liangjingkanji/PTCode) | PT Mono 增加连字特性(Ligatures)                                                                                               |
-| [PlexMono](https://github.com/liangjingkanji/PlexMono) | IBM Plex Mono 增加连字特性(Ligatures)                                                                                         |
-| [HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | 中文字体, 汉仪正圆                                                                                                              |
+| 推荐字体                                                     | 描述                                                                                                                        |
+| ------------------------------------------------------------ |---------------------------------------------------------------------------------------------------------------------------|
+| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/)   | 英文字体, 适合开发人员的字体. 作者修改版本: [JetBrainsMono Patch](https://github.com/liangjingkanji/JetBrainsMono-patch)                     |
+| [Fira Code](https://github.com/tonsky/FiraCode)              | 英文字体, 前端开发人员喜欢用的字体                                                                                                        |
+| [Cascadia Code](https://github.com/microsoft/cascadia-code)  | 英文字体, 微软官方字体, Windows Terminal的默认字体. 作者修改版本: [Cascadia Code Patch](https://github.com/liangjingkanji/cascadia-code-patch) |
+| [PTCode](https://github.com/liangjingkanji/PTCode)           | PT Mono 增加连字特性(Ligatures)                                                                                                 |
+| [PlexMono](https://github.com/liangjingkanji/PlexMono)       | IBM Plex Mono 增加连字特性(Ligatures)                                                                                           |
+| [Iosevka](https://github.com/be5invis/Iosevka)/[Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic) | Iosevka/更紗黑體, 超窄字间距(稍微过窄)<br />Windows渲染效果明显(希望各位敦促作者将Iosevka其他风格整和进去)                                                    |
+| [HYYouYuan](https://www.hanyi.com.cn/productdetail?id=10875)/[HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | 中文字体, 汉仪有圆/汉仪正圆                                                                                                           |
 
 
-## Install
+## 安装
 
 - [x] 首先确定已安装[Typora](https://typora.io/)
 
@@ -54,7 +65,7 @@
 
 
 
-## Preview
+## 预览
 
 提供多种配置预览, 点击查看高清大图
 
@@ -77,18 +88,26 @@
 ## License
 
 ```
-Copyright (C) 2018 Drake, Inc.
+MIT License
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Copyright (c) 2023 劉強東
 
-http://www.apache.org/licenses/LICENSE-2.0
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
